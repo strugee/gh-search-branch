@@ -53,7 +53,7 @@ module.exports = function(user, branch, options, callback) {
 						for (var j in branches) {
 							var remote_branch = branches[j];
 							if (remote_branch.name === branch) {
-								callback(null, remote_branch.name);
+								callback(null, repo.name);
 							}
 						}
 					});
