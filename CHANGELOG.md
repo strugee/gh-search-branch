@@ -1,4 +1,4 @@
-# gh-search-branch changelog
+# `gh-search-branch` changelog
 
 ## 1.0.0
 
